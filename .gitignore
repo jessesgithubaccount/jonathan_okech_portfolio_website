@@ -32,4 +32,4 @@ pnpm-debug.log*
 
 # TinaCMS generated admin build + local caches
 public/admin/
-.tina/__generated__/
+tina/__generated__/
