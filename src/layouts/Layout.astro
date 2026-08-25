@@ -75,7 +75,7 @@ const isActive = (href) =>
     <div class="nav-links" id="navLinks">
       {navItems.map((item) => (
         
-          href={item.href}
+        <a href={item.href}
           class="nav-link"
           class:list={[{ active: isActive(item.href) }]}
         >
