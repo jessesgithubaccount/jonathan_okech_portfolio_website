@@ -1,0 +1,16 @@
+---
+import Layout from "../layouts/Layout.astro";
+import services from "../../content/services/index.json";
+---
+<Layout>
+  <main id="services" class="page active">
+    <section class="services-hero"><div class="container"><div class="section-heading"><div class="eyebrow">{services.heroEyebrow}</div><h2>{services.heroHeading}</h2><p>{services.heroParagraph}</p></div>
+      <div class="services-grid">
+        {services.services.map((s: any) => (
+          <article class="service-card"><span class="service-number">{s.number}</span><div class="service-icon">{s.icon}</div><h3>{s.title}</h3><p>{s.description}</p></article>
+        ))}
+      </div>
+    </div></section>
+    <section class="cta-section"><div class="container"><div class="cta-box"><h2>{services.ctaHeading}</h2><p>{services.ctaText}</p><button class="btn btn-primary" data-open-contact>{services.ctaButtonLabel}</button></div></div></section>
+  </main>
+</Layout>

@@ -1,0 +1,16 @@
+{
+  "heroEyebrow": "Services",
+  "heroHeading": "Practical expertise for organizations seeking to grow their impact.",
+  "heroParagraph": "From prospecting to stewardship, I support the full resource mobilization journey.",
+  "services": [
+    { "number": "01", "icon": "🔎", "title": "Donor Mapping & Prospecting", "description": "Researching and identifying compatible bilateral donors, foundations and corporate partners based on organizational priorities, geography and funding interests." },
+    { "number": "02", "icon": "✍️", "title": "Proposal Development", "description": "Writing and coordinating grant applications, concept notes and logical frameworks that translate ideas into clear, compelling funding propositions." },
+    { "number": "03", "icon": "🤝", "title": "Partnership Management", "description": "Building and nurturing long-term relationships with stakeholders, governments, NGOs and other strategic partners." },
+    { "number": "04", "icon": "🧭", "title": "Fundraising Strategy", "description": "Designing comprehensive roadmaps that strengthen financial sustainability, diversify funding sources and create a more resilient resource base." },
+    { "number": "05", "icon": "🏢", "title": "Private Sector Engagement", "description": "Creating corporate social responsibility initiatives and public-private partnerships that align business interests with meaningful social impact." },
+    { "number": "06", "icon": "📈", "title": "Donor Stewardship", "description": "Supporting reporting, communication and impact tracking to strengthen donor relationships and encourage continued support." }
+  ],
+  "ctaHeading": "Have an opportunity worth exploring?",
+  "ctaText": "Let's discuss your organization's goals and identify where partnerships or resource mobilization can create the greatest value.",
+  "ctaButtonLabel": "Start a Conversation →"
+}

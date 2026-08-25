@@ -1,0 +1,101 @@
+---
+import Layout from "../layouts/Layout.astro";
+import about from "../../content/about/index.json";
+---
+<Layout>
+  <main id="about" class="page active">
+    <section class="about-hero">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">{about.heroEyebrow}</div>
+          <h2>{about.heroHeading}</h2>
+          <p>{about.heroParagraph}</p>
+        </div>
+
+        <div class="journey-intro">
+          <h2>{about.journeyHeading}</h2>
+          <p>{about.journeyParagraph1}</p>
+          <p>{about.journeyParagraph2}</p>
+        </div>
+
+        <div class="journey-section">
+          <div class="journey-heading">
+            <div><div class="eyebrow">Core Skills</div><h3>My core strengths</h3></div>
+          </div>
+
+          <div class="journey-info-card core-strengths-card">
+            <div class="skill-list">
+              {about.skills.map((skill: string) => <span class="skill-pill">{skill}</span>)}
+            </div>
+          </div>
+
+          <div class="journey-heading">
+            <div><div class="eyebrow">Professional Experience</div><h3>My professional journey</h3></div>
+            <p>Nairobi, Kenya</p>
+          </div>
+
+          <div class="experience-timeline">
+            {about.experience.map((job: any) => (
+              <article class="experience-item">
+                <div class="experience-marker"><img src={job.logo} alt={`${job.company} logo`}></div>
+                <div class="experience-card">
+                  <div class="experience-top">
+                    <div><h3>{job.role}</h3><div class="experience-company">{job.company}</div></div>
+                    <div class="experience-date">{job.dateRange}</div>
+                  </div>
+                  <ul>
+                    {job.bullets.map((bullet: string) => <li>{bullet}</li>)}
+                  </ul>
+                </div>
+              </article>
+            ))}
+          </div>
+
+          <div class="journey-heading">
+            <div><div class="eyebrow">Education</div><h3>My education</h3></div>
+          </div>
+
+          <div class="journey-footer">
+            <div class="journey-info-card education-row">
+              <div class="education-marker">
+                <svg width="30" height="30" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3L1 9l11 6 9-4.91V17h2V9L12 3z" fill="rgba(44,62,80,.35)"/><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82z" fill="rgba(44,62,80,.2)"/></svg>
+              </div>
+              <div>
+                <h3>My Education</h3>
+                <p><strong>{about.educationDegree}</strong><br>{about.educationSchool}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about-approach" id="approach">
+      <div class="container">
+        <div class="section-heading">
+          <div class="eyebrow">{about.approachEyebrow}</div>
+          <h2>{about.approachHeading}</h2>
+          <p>{about.approachParagraph}</p>
+        </div>
+        <div class="approach-layout">
+          <aside class="profile-card"><img class="profile-photo" src={about.profilePhoto} alt={about.profileName}><div class="profile-card-body"><h2>{about.profileName}</h2><div class="profile-line"></div><p>{about.profileTagline}</p></div></aside>
+          <div class="about-copy"><h2>{about.aboutCopyHeading}</h2>
+            {about.aboutCopyParagraphs.map((p: string) => <p>{p}</p>)}
+            <div class="values">
+              {about.values.map((v: any) => (
+                <div class="value"><strong>{v.emoji} {v.title}</strong><span>{v.text}</span></div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section"><div class="container"><div class="section-heading"><div class="eyebrow">{about.philosophyEyebrow}</div><h2>{about.philosophyHeading}</h2></div><div class="feature-grid">
+      {about.philosophyCards.map((c: any) => (
+        <article class="feature-card"><div class="feature-icon">{c.emoji}</div><h3>{c.title}</h3><p>{c.text}</p></article>
+      ))}
+    </div></div></section>
+
+    <section class="cv-download-section"><div class="container"><div class="cv-download-card"><div class="cv-download-content"><div class="eyebrow">Curriculum Vitae</div><h3>{about.cvHeading}</h3><p>{about.cvText}</p></div><button class="btn btn-primary cv-download-btn" data-cv-download type="button" id="cvDownloadButton">Download CV <span>↓</span></button></div></div></section>
+  </main>
+</Layout>

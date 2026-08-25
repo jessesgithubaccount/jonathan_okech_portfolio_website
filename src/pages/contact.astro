@@ -1,0 +1,19 @@
+---
+import Layout from "../layouts/Layout.astro";
+import site from "../../content/settings/site.json";
+---
+<Layout>
+  <main id="contact" class="page active">
+    <section class="contact-hero"><div class="container"><div class="section-heading"><div class="eyebrow">Contact Me</div><h2>Let's start a meaningful conversation.</h2><p>If you're exploring funding opportunities, partnerships or a resource mobilization strategy, I'd be happy to connect.</p></div>
+      <div class="contact-layout">
+        <div class="contact-card"><h2>Get in touch.</h2><p>Choose the easiest way to reach me. I look forward to hearing about your organization, project or partnership opportunity.</p>
+          <div class="contact-list">
+            <a href={site.phoneHref} class="contact-item"><div class="contact-item-icon">☎</div><div><small>Phone</small><strong>{site.phone}</strong></div></a>
+            <a href={`mailto:${site.email}`} class="contact-item"><div class="contact-item-icon">✉</div><div><small>Email</small><strong>{site.email}</strong></div></a>
+          </div>
+          <div class="contact-actions"><a href={site.phoneHref} class="btn btn-primary">☎ Call Us</a><a href={`mailto:${site.email}`} class="btn btn-dark">✉ Email Us</a><button class="btn btn-light" data-open-contact style="color:var(--slate);border-color:rgba(44,62,80,.16);background:rgba(0,158,219,.07)">💬 Send a Message</button></div>
+        </div>
+      </div>
+    </div></section>
+  </main>
+</Layout>

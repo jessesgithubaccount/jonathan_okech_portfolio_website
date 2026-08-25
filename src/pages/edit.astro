@@ -1,0 +1,15 @@
+---
+// Friendly, memorable URL for the client. TinaCMS's built admin lives as a
+// static bundle at /admin/index.html — this page just forwards to it.
+// No server rendering needed; this stays a fully static redirect.
+---
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="0; url=/admin/index.html" />
+    <title>Redirecting to editor…</title>
+  </head>
+  <body>
+    <p>Redirecting to the editor… if nothing happens, <a href="/admin/index.html">click here</a>.</p>
+  </body>
+</html>

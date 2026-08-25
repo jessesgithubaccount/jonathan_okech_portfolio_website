@@ -1,0 +1,24 @@
+{
+  "name": "jonathan-portfolio",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "tinacms dev -c \"astro dev\"",
+    "build": "tinacms build && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^7.2.6",
+    "tinacms": "^3.11.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^2.5.3"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}
