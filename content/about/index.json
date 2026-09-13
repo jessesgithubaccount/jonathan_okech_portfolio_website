@@ -1,6 +1,6 @@
 {
   "heroEyebrow": "Who I Am",
-  "heroHeading": "From operations and client support to partnerships, resources and impact.",
+  "heroHeading": "Starting operations and client support to partnerships, resources and impact.",
   "heroParagraph": "I am a Partnerships & Resource Mobilization Professional based in Nairobi, Kenya, with 3+ years of experience developing external partnerships, authoring grant applications and managing structured engagement pipelines.",
   "journeyHeading": "My journey so far.",
   "journeyParagraph1": "My professional journey has taken me from customer-facing operations into resource mobilization, strategy and partnerships. That progression has given me a practical understanding of people, organizations, data, communication and the discipline required to move a relationship from first contact toward a meaningful outcome.",
@@ -64,17 +64,45 @@
     "From donor research and proposal development to partnership management and donor stewardship, I approach resource mobilization as a relationship-building discipline rather than simply a search for funding."
   ],
   "values": [
-    { "emoji": "🎯", "title": "Strategic", "text": "Every opportunity should connect to a clear organizational objective." },
-    { "emoji": "🤝", "title": "Relationship-led", "text": "Long-term partnerships create stronger and more sustainable outcomes." },
-    { "emoji": "📊", "title": "Evidence-informed", "text": "Research and insight guide better resource mobilization decisions." },
-    { "emoji": "🌍", "title": "Impact-focused", "text": "Resources matter most when they translate into measurable impact." }
+    {
+      "emoji": "🎯",
+      "title": "Strategic",
+      "text": "Every opportunity should connect to a clear organizational objective."
+    },
+    {
+      "emoji": "🤝",
+      "title": "Relationship-led",
+      "text": "Long-term partnerships create stronger and more sustainable outcomes."
+    },
+    {
+      "emoji": "📊",
+      "title": "Evidence-informed",
+      "text": "Research and insight guide better resource mobilization decisions."
+    },
+    {
+      "emoji": "🌍",
+      "title": "Impact-focused",
+      "text": "Resources matter most when they translate into measurable impact."
+    }
   ],
   "philosophyEyebrow": "My Philosophy",
   "philosophyHeading": "Good partnerships create value for everyone involved.",
   "philosophyCards": [
-    { "emoji": "💡", "title": "I Understand First", "text": "Before pursuing an opportunity, I understand the organization, its priorities, its partners and the funding landscape." },
-    { "emoji": "🧭", "title": "I Position Strategically", "text": "I connect organizational needs with the priorities of potential partners through strong proposals and thoughtful partnerships." },
-    { "emoji": "🌱", "title": "I Think Long-Term", "text": "I look beyond today's opportunity and focus on building relationships that remain valuable tomorrow." }
+    {
+      "emoji": "💡",
+      "title": "I Understand First",
+      "text": "Before pursuing an opportunity, I understand the organization, its priorities, its partners and the funding landscape."
+    },
+    {
+      "emoji": "🧭",
+      "title": "I Position Strategically",
+      "text": "I connect organizational needs with the priorities of potential partners through strong proposals and thoughtful partnerships."
+    },
+    {
+      "emoji": "🌱",
+      "title": "I Think Long-Term",
+      "text": "I look beyond today's opportunity and focus on building relationships that remain valuable tomorrow."
+    }
   ],
   "cvHeading": "Download my CV",
   "cvText": "Choose your preferred format and download my latest CV directly to your device."
